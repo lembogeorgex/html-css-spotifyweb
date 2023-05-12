@@ -3,17 +3,23 @@
  ************************************************/
 
 /* Custom Properties */
-
-/* Sizing */
 :root {
+    /* Sizing */
+
     --xs: 0.5rem;
     --s: 1rem;
     --m: 1.5rem;
     --l: 2rem;
     --xl: 3rem;
+
+    /* Palette */
+    --green-side: rgb(124, 183, 43);
+    --main-color: rgb(20, 25, 34);
+    --footer-gray: rgb(40, 40, 40);
+    --header-gray: rgb(8, 11, 18);
+
 }
 
-/* Palette */
 /* Commons */
 body {
     font-family: Montserrat;
@@ -58,6 +64,10 @@ html {
     text-align: center;
 }
 
+.white-text {
+    color: white;
+    ;
+}
 
 /* Borders */
 .rounded {
@@ -89,6 +99,32 @@ html {
 /* Media Query */
 
 /* Header */
+header {
+    min-height: 70px;
+    background-color: var(--header-gray);
+    opacity: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
 /* Main */
+main {
+    height: calc(100vh - 100px);
+    background-color: var(--main-color);
+    overflow: auto;
+}
+
 /* Sections */
 /* Footer */
+footer {
+    min-height: 100px;
+    background-color: var(--footer-gray);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
