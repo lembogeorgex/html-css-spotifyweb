@@ -1,0 +1,94 @@
+/************************************************
+    GENERAL STYLES
+ ************************************************/
+
+/* Custom Properties */
+
+/* Sizing */
+:root {
+    --xs: 0.5rem;
+    --s: 1rem;
+    --m: 1.5rem;
+    --l: 2rem;
+    --xl: 3rem;
+}
+
+/* Palette */
+/* Commons */
+body {
+    font-family: Montserrat;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/************************************************
+    UTILITIES
+ ************************************************/
+
+/* Layout */
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Text */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Borders */
+.rounded {
+    border-radius: 20px;
+}
+
+.rounded-big {
+    border-radius: 50px;
+}
+
+.rounded-50 {
+    border-radius: 50%;
+}
+
+/* UI */
+
+.btn {
+    appearance: none;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+
+/* Variations */
+
+
+/* Media Query */
+
+/* Header */
+/* Main */
+/* Sections */
+/* Footer */
