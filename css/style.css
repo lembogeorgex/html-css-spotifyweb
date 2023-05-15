@@ -98,44 +98,23 @@ html {
 
 
 /* Generics */
-.wrapper {
-    flex-direction: column;
-}
 
 /* Media Query */
 
 /* Header */
-header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 70px;
-    background-color: brown;
-}
+header {}
 
 /* Upper content */
 
 .upper-content {
-    flex-basis: calc(100vh - 250px);
-    background-color: aquamarine;
+    height: calc(100vh - 100px);
+    background-color: green;
 }
-
-.content {
-    position: relative;
-}
-
-.side-bar {
-    width: 250px;
-    background-color: black;
-    min-height: 300px;
-}
-
 
 
 
 /* Footer */
 footer {
+    height: 100px;
     background-color: var(--footer-gray);
-    min-height: 100px;
 }
