@@ -111,13 +111,13 @@ html {
 }
 
 .sidebar {
-    flex-basis: 250px;
+    width: 20%;
     background-color: pink;
 
 }
 
 .main-content {
-    flex-grow: 1;
+    width: 80%;
     background-color: greenyellow;
     overflow: auto;
 }
