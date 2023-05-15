@@ -141,7 +141,9 @@ header {
 
 }
 
-.playlist-containing {}
+.playlist-containing {
+    overflow: auto;
+}
 
 .main-content {
     width: calc(100% - 200px);
