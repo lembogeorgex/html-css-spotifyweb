@@ -142,13 +142,14 @@ header {
 }
 
 .playlist-containing {
+    height: 200px;
     overflow: auto;
 }
 
 .main-content {
     width: calc(100% - 200px);
     background-color: greenyellow;
-    overflow: auto;
+    overflow: visible;
 
 }
 
