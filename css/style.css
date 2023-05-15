@@ -102,19 +102,28 @@ html {
 /* Media Query */
 
 /* Header */
-header {}
 
 /* Upper content */
 
 .upper-content {
-    height: calc(100vh - 100px);
-    background-color: green;
+    height: calc(100vh - 150px);
+
 }
 
+.sidebar {
+    flex-basis: 250px;
+    background-color: pink;
 
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: greenyellow;
+    overflow: auto;
+}
 
 /* Footer */
 footer {
-    height: 100px;
+    height: 150px;
     background-color: var(--footer-gray);
 }
