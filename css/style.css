@@ -182,7 +182,7 @@ header {
 .main-content {
     width: calc(100% - 200px);
     background-color: var(--main-color);
-    overflow: visible;
+    overflow: auto;
 
 }
 
