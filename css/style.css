@@ -26,7 +26,11 @@ body {
     color: white;
 }
 
-
+.side-ico {
+    padding-bottom: 10px;
+    width: 20%;
+    vertical-align: middle;
+}
 
 /* Reset */
 * {
@@ -59,6 +63,14 @@ html {
 
 .align-center {
     align-items: center;
+}
+
+
+.separator {
+    width: 90%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Text */
@@ -114,7 +126,7 @@ ul {
 
 /* Generics */
 
-/* Media Query */
+
 
 /* Header */
 header {
@@ -136,19 +148,21 @@ header {
 }
 
 .sidebar {
+    height: calc(100vh - 150px);
     width: 200px;
-    background-color: pink;
+    background-color: black;
 
 }
 
 .playlist-containing {
     height: 200px;
     overflow: auto;
+    margin-bottom: 80px;
 }
 
 .main-content {
     width: calc(100% - 200px);
-    background-color: greenyellow;
+    background-color: var(--main-color);
     overflow: visible;
 
 }
@@ -163,6 +177,10 @@ header {
     line-height: 30px;
 }
 
+.mobile-logo {
+    display: none;
+}
+
 /* Footer */
 footer {
     height: 150px;
@@ -170,7 +188,7 @@ footer {
 }
 
 
-
+/* Media Query */
 @media screen and (max-width: 500px) {
     .sidebar {
         width: 50px;
@@ -179,4 +197,29 @@ footer {
     .main-content {
         width: calc(100% - 50px);
     }
+
+    .main-logo {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    .aside-text {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .side-ico {
+        width: 100%;
+    }
+
 }
