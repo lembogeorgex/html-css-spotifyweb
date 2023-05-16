@@ -86,15 +86,11 @@ html {
 
 .heading-text {
     padding-bottom: 30px;
-    text-align: center;
+    gap: 20px;
+    justify-content: center;
 
 }
 
-.evidence-text {
-    padding-right: 20px;
-    padding-left: 20px;
-
-}
 
 .highlight {
     padding-bottom: 5px;
@@ -103,6 +99,7 @@ html {
 
 
 }
+
 
 /* Borders */
 .rounded {
@@ -269,4 +266,15 @@ footer {
         width: 100%;
     }
 
+    .heading-text {
+        flex-wrap: wrap;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .album {
+        width: calc(100% / 2 - 10px);
+    }
 }
